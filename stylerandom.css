@@ -90,8 +90,8 @@ body {
 
 #spin {
 	position: absolute;
-	top: 50.7%;
-	left: 50.7%;
+	top: 50%;
+	left: 51.5%;
 	transform: translate(-50%, -50%);
 	z-index: 10;
 	background-color: #e2e2e2;
