@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="shortcut icon" href="icondanil.png">
+	<title>ProstoPrinceTV</title>
+	<link rel="stylesheet" href="styletv.css">
+</head>
+<body>
+
+	<section class="tv">
+		<div class="player">
+			<img src="tv.png" alt="">
+			<video src="video1.mp4" id="video-tv" controls></video>
+		</div>
+		<ul class="video-thumb">
+			<li onclick="changeVideo('video2.mp4')"><img src="3.jpg" alt=""></li>
+			<li onclick="changeVideo('video3.mp4')"><img src="2.jpg" alt=""></li>
+			<li onclick="changeVideo('video4.mp4')"><img src="1.jpg" alt=""></li>
+			<li onclick="changeVideo('video5.mp4')"><img src="4.jpg" alt=""></li>
+		</ul>
+	</section>
+
+	<script>
+		function changeVideo(url){
+			document.getElementById('video-tv').src = url;
+		}
+	</script>
+</body>
+</html>
